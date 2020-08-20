@@ -12,9 +12,9 @@ end
 current_player(board, turn_count)
 players = ["X", "O"]
 board.each do |player|
-  if player % 2 == 0 \
-    (puts\n) "#{players} "
-  else player % 3 == 1
-    (puts\n) "#{players} "
+ if (player % 2 == 0) || (player % 3 == 1)
+  puts "X"
+else 
+  puts "O"
   end
 end
