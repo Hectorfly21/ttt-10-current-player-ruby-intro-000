@@ -6,7 +6,7 @@ counter = 0
     puts "X is divible by #{position}"
     puts "O is dividble by #{position}"
 
-  
+
 end
 
 
