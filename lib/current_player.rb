@@ -3,8 +3,10 @@ counter = 0
 board.each do |player|
  if player = "X" || "O"
    counter += 1
-  puts "counter"
+  puts "#{counter}"
+  end
 end
+turn_count(board)
 
 
 
