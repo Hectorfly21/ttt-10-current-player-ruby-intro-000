@@ -1,16 +1,10 @@
 def turn_count(board)
+positions = ["X", "O"]
 counter = 0
-if my_condition_is_met
-  counter = counter + 1
-  return turn(board)
+postions.each do |position|
+  puts "#{positions}"
 end
-
-
-
-
-
-end
-
+  
 
 
 def current_player(board, turn_count)
