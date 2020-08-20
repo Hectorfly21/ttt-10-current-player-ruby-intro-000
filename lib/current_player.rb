@@ -16,6 +16,8 @@ turn_count.each do |player|
   return "X"
 else
   return "O"
+
   end
+ current_player(board, turn_count)
+ end
 end
-current_player(board, turn_count)
