@@ -10,15 +10,13 @@ board.each do |player|
 end
 
 current_player(board, turn_count)
-players = ["X", "O"]  
+players = ["X", "O"]
 board.each do |player|
   if player % 2 == 0 \
     puts "#{players}"
   elsif player % 3 == 1
     puts "#{players}"
   else
-    nil 
+    nil
   end
 end
-
-    
