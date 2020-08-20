@@ -10,5 +10,5 @@ board.each do |player|
 end
 
 def current_player(board)
-turn_count(board) % 2 == 0 ? "X" : "0"
+turn_count(board) % 2 == 0 ? "X" : "O"
 end
