@@ -4,5 +4,7 @@ board.each do |player|
  if (player == "X") || (player == "O")
    counter += 1
   puts "#{counter}"
-  end
+   end
+ end
+ counter
 end
