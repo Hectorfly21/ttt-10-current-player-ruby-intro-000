@@ -19,5 +19,4 @@ else
 
   end
  current_player(board, turn_count)
- end
 end
