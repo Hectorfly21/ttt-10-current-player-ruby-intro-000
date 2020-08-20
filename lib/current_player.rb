@@ -9,15 +9,6 @@ board.each do |player|
  counter
 end
 
-def current_player(board, turn_count)
-players = ["X", "O"]
-turn_count.each do |player|
- if (player % 1 == 0) || (player % 2 == 1)
-  return "X"
-else
-  return "O"
-
-  end
-  current_player(board, turn_count)
- end
+def current_player(board)
+turn_count(board) % 2 == 0 ? "X" : "0"
 end
