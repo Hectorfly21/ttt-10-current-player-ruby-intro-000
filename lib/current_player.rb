@@ -9,7 +9,7 @@ board.each do |player|
  counter
 end
 
-current_player(board, turn_count)
+def current_player(board, turn_count)
 players = ["X", "O"]
 turn_count.each do |player|
  if (player % 1 == 0) || (player % 2 == 1)
