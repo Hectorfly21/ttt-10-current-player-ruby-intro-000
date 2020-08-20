@@ -2,6 +2,7 @@ def turn_count(board)
 counter = 0
 if my_condition_is_met
   counter = counter + 1
+  return turn(board)
 end
 
 
