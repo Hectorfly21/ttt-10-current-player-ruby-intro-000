@@ -6,4 +6,4 @@ board.each do |player|
   puts "#{counter}"
   end
 end
-turn_count(board)
+
