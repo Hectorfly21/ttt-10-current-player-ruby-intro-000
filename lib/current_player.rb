@@ -1,8 +1,12 @@
 def turn_count(board)
 positions = ["X", "O"]
 counter = 0
-postions.each do |position|
-  puts "#{positions}"
+
+(1..9).each do |position|
+    puts "X is divible by #{position}"
+    puts "O is dividble by #{position}"
+
+  
 end
 
 
