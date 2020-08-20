@@ -14,7 +14,7 @@ players = ["X", "O"]
 board.each do |player|
  if (player % 2 == 0) || (player % 3 == 1)
   puts "X"
-else 
+else
   puts "O"
   end
 end
