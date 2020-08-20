@@ -4,7 +4,7 @@ counter = 0
 postions.each do |position|
   puts "#{positions}"
 end
-  
+
 
 
 def current_player(board, turn_count)
